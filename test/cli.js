@@ -24,10 +24,6 @@ describe('cli', () => {
 </body>
 </html>`;
 
-    try {
-      fs.removeSync(outputPath);
-    } catch(err) {}
-
     new Promise((resolve, reject) => {
       exec(`node bin/cli.js -i ${inputPath} -o \$dirname/\$basename-amp.html`, (err, stdout, stderr) => {
         if (err) return reject(err);
