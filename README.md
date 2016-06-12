@@ -5,26 +5,26 @@ NPM module to transform articles of the HTML page to amp.
 ## Install
 
 ```sh
-$ npm i -g hami-jp/a2amp
+$ npm i -g hami-jp/article-to-amp
 ```
 
 ## CLI
 
 ```sh
-  Usage:
-    $ a2amp [INPUT] [OUTPUT] [options]
+Usage:
+  $ a2amp [INPUT] [OUTPUT] [options]
 
-  Options:
-    -i, --input     input file path supported glob pattern. default value is '**/*.html'
-    -o, --output    output file path supported path variables ($dirname, $filename, $basename, and $extname).
-                    default value is '$dirname/amp/$filename'
-    -e, --exclude   exclude this glob pattern from input file paths
-    -w, --overwrite overwrite input file. default value is 'false'
-    -c, --encoding  input file encoding. default value is 'utf8'
-    -s, --selector  selector of articles. default value is 'article'
+Options:
+  -i, --input     input file path supported glob pattern. default value is '**/*.html'
+  -o, --output    output file path supported path variables ($dirname, $filename, $basename, and $extname).
+                  default value is '$dirname/amp/$filename'
+  -e, --exclude   exclude this glob pattern from input file paths
+  -w, --overwrite overwrite input file. default value is 'false'
+  -c, --encoding  input file encoding. default value is 'utf8'
+  -s, --selector  selector of articles. default value is 'article'
 
-    -h, --help      print usage information
-    -v, --version   show version info and exit
+  -h, --help      print usage information
+  -v, --version   show version info and exit
 ```
 
 ## API
