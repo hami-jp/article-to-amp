@@ -1,0 +1,25 @@
+{
+  "name": "article-to-amp",
+  "version": "0.0.1",
+  "description": "NPM module to transform articles of the HTML page to amp.",
+  "main": "lib/renderer.js",
+  "scripts": {
+    "test": "npm run mocha",
+    "mocha": "NODE_ENV=test mocha --timeout 10000"
+  },
+  "bin": {
+    "a2amp": "bin/cli.js"
+  },
+  "author": "hami",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "fs-promise": "^0.5.0",
+    "glob-promise": "^1.0.6",
+    "html-to-amp": "^2.0.2",
+    "meow": "^3.7.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  }
+}
