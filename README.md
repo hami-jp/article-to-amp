@@ -1,4 +1,4 @@
-# article-to-amp [![Build Status](https://travis-ci.org/hami-jp/article-to-amp.svg?branch=master)](https://travis-ci.org/hami-jp/article-to-amp)
+# article-to-amp :zap: [![Build Status](https://travis-ci.org/hami-jp/article-to-amp.svg?branch=master)](https://travis-ci.org/hami-jp/article-to-amp)
 
 NPM module to transform articles of the HTML page to amp.
 
